@@ -24,8 +24,7 @@
 ```js
 <script src="./dist//index.js"></script>
 <script>
-      import Tracker from './dist/index.cjs.js'
-       new Tracker({
+       new tracker({
          requestUrl: 'http://*********',  // 后台接口地址
          historyTracker: true,  // history模式跳转是否上报
          domTracker: true,   // hash模式跳转是否上报
